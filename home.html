@@ -52,7 +52,7 @@
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                         <li class="nav-item">
                             <div class="dropdown">
-                                <button type="button" class="btn btn-dark dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false"
+                                <button type="button" class="btn btn-dark dropdown-toggle boton" data-bs-toggle="dropdown" aria-expanded="false"
                                     data-bs-auto-close="outside">
                                     Ingresa
                                 </button>
@@ -65,12 +65,37 @@
                                         <label for="exampleDropdownFormPassword2" class="form-label">Contraseña</label>
                                         <input type="password" class="form-control form-control-sm" id="exampleDropdownFormPassword2" placeholder="Password" >
                                     </div>
-                                    <button type="submit" class="btn">Iniciar sesión</button>
+                                    <button type="submit" class="btn boton">Iniciar sesión</button>
                                 </form>
                             </div>
                         </li>
+                        <!--Crear cuenta-->
                         <li class="nav-item profiles">
-                            <a class="nav-link" href="#">Crea tu cuenta</a>
+                            <div class="dropdown">
+                                <button type="button" class="btn btn-dark dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false"
+                                    data-bs-auto-close="outside">
+                                    Crear Cuenta
+                                </button>
+                                <form class="dropdown-menu p-4">
+                                    <div class="mb-3">
+                                        <label for="exampleDropdownForName" class="form-label">Nombre</label>
+                                        <input type="text" class="form-control form-control-sm" id="exampleDropdownForName" placeholder="Nombre">
+                                    </div>
+                                    <div class="mb-3">
+                                        <label for="exampleDropdownforLastName" class="form-label">Apellidos</label>
+                                        <input type="text" class="form-control form-control-sm" id="exampleDropdownforLastName" placeholder="Apellidos">
+                                    </div>
+                                    <div class="mb-3">
+                                        <label for="exampleDropdownFormEmail2" class="form-label">Email</label>
+                                        <input type="email" class="form-control form-control-sm" id="exampleDropdownFormEmail2" placeholder="email@example.com">
+                                    </div>
+                                    <div class="mb-3">
+                                        <label for="exampleDropdownFormPassword2" class="form-label">Contraseña</label>
+                                        <input type="password" class="form-control form-control-sm" id="exampleDropdownFormPassword2" placeholder="Password" >
+                                    </div>
+                                    <button type="submit" class="btn boton">Registrarme</button>
+                                </form>
+                            </div>
                         </li>
                     </ul>
                 </div>
@@ -100,9 +125,6 @@
         <!-- If we need navigation buttons -->
         <div class="swiper-button-prev"></div>
         <div class="swiper-button-next"></div>
-    
-        <!-- If we need scrollbar -->
-        <!-- <div class="swiper-scrollbar"></div> -->
     </div>
     <!-- ========== End carousel ========== -->
 
