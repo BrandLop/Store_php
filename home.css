@@ -14,10 +14,17 @@
     align-items: center;
 }
 
-.ri-store-2-line {
+a {
+    text-decoration:none;
+}
+
+.fa-solid {
     color: #FF9900;
-    font-size: 30px;
     margin-right: 1px;
+}
+
+.fa-brands {
+    color: #FF9900;
 }
 
 .profiles {
@@ -103,4 +110,8 @@
 
 .swiper-hero .swiper-pagination-bullet-active {
     box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.25);
+}
+
+.links_foot:hover {
+    color: #FF9900;
 }
