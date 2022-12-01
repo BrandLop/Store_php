@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    list-style: none;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.ri-store-2-line {
+    color: #FF9900;
+    font-size: 30px;
+    margin-right: 1px;
+}
+
+.profiles {
+    display: flex;
+}
+
+.dropdown-item:active {
+    background-color: #FF9900;
+    color: #212529;
+}
+
+.btn,
+.btn:hover {
+    background-color: #FF9900;
+    color: #212529;
+}
